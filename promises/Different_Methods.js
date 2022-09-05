@@ -40,3 +40,4 @@ const fourthPromise = new Promise((resolve, reject) => {
 // Exercise 4: Consider thirdPromise and fourthPromise for this exercise. Write code to return a promise that
 // fulfills as soon as one of the promises fulfill.
 Promise.any([thirdPromise, fourthPromise]).then((res) => console.log(res));
+// Practise and Learn more promise methods.
