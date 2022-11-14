@@ -48,7 +48,9 @@ const VanillaTodoFilter = () => {
       </div>
       <ul>
         {todosState.map((todo) => (
-          <li key={todo.id}>{todo.title}</li>
+          <li key={todo.id}>
+            {todo.title} {todo.completed === true ? "✅" : "❌"}
+          </li>
         ))}
       </ul>
     </div>

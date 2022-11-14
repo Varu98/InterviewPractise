@@ -1,5 +1,6 @@
 import "./App.css";
 import BrandFilter from "./Components/BrandFilter";
+import DisplayName from "./Components/DisplayName";
 import FilterTodo from "./Components/FilterTodo";
 import VanillaBrandFilter from "./Components/VanillaBrandFilter";
 import VanillaTodoFilter from "./Components/VanillaTodoFilter";
@@ -10,7 +11,8 @@ function App() {
       {/* <BrandFilter /> */}
       {/* <FilterTodo /> */}
       {/* <VanillaBrandFilter /> */}
-      <VanillaTodoFilter />
+      {/* <VanillaTodoFilter /> */}
+      <DisplayName />
     </div>
   );
 }
