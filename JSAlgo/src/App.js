@@ -1,4 +1,5 @@
 import "./App.css";
+import AddTodo from "./Components/AddTodo";
 import BrandFilter from "./Components/BrandFilter";
 import DisplayName from "./Components/DisplayName";
 import FilterTodo from "./Components/FilterTodo";
@@ -14,7 +15,8 @@ function App() {
       {/* <VanillaBrandFilter /> */}
       {/* <VanillaTodoFilter /> */}
       {/* <DisplayName /> */}
-      <ListOfCars />
+      {/* <ListOfCars /> */}
+      <AddTodo />
     </div>
   );
 }
