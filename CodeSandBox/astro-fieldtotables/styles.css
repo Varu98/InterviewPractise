@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c2a21;
+  color: #e5e5cb;
+}
+
+textarea {
+  max-width: 20rem;
+  max-height: 15rem;
+  background-color: #665248;
+  color: #e5e5cb;
+  font-size: 1.5rem;
+}
+
+td {
+  border: 1px solid #e5e5cb;
+  padding: 1rem 2rem;
+}
