@@ -18,6 +18,7 @@ const memoise = (fn) => {
   const cache = new Map();
 
   return (...args) => {
+    // converting the args array into strings to reduce chances of error while setting the key.
     const key = args.toString();
     if (cache.has(key)) return cache.get(key);
 
@@ -25,7 +26,6 @@ const memoise = (fn) => {
 
     return cache.get(key);
   };
-  // converting the args array into strings to reduce chances of error while setting the key.
 };
 
 const addM = memoise(add);
