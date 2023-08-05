@@ -1,0 +1,11 @@
+{
+  "name": "interviewpractise",
+  "version": "1.0.0",
+  "description": "![](https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif)",
+  "main": "bindPolyfill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
